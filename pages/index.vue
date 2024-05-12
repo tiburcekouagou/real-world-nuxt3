@@ -1,3 +1,9 @@
+<script setup lang="ts">
+const source = "**This is a bold text.**"
+</script>
+
 <template>
-    <h1>Hello World !</h1>
+    <main>
+        <RenderMarkdown :source="source" />
+    </main>
 </template>
